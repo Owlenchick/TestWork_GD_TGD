@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52e3d609ef6846f6bc5d3df55454b9f, type: 3}
+  m_Name: SFX_Straw
+  m_EditorClassIdentifier: DuskYard.Runtime::DuskYard.VFX.SurfaceFxProfile
+  surface: 2
+  hitPrefab: {fileID: 1179018932930302987, guid: 825df828033b94d17b874f53f065486d, type: 3}
+  poolSize: 6
+  sprayAlongSwing: 0.6
+  decalMaterial: {fileID: 2100000, guid: 0ce506bb1cd024c26b400d933dd1a01d, type: 2}
+  decalPoolSize: 8
+  decalSize: {x: 0.36, y: 0.11}
+  decalDepth: 0.3
+  decalLifetime: 7
+  decalFadeTime: 1.5
+  lightColor: {r: 1, g: 0.74, b: 0.48, a: 1}
+  lightLumen: 650
+  lightRange: 3
+  lightDuration: 0.1
+  shakeAmplitude: 0.045
+  shakeDuration: 0.14
+  hitStop: 0.055

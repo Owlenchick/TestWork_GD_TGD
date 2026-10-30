@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52e3d609ef6846f6bc5d3df55454b9f, type: 3}
+  m_Name: SFX_Stone
+  m_EditorClassIdentifier: DuskYard.Runtime::DuskYard.VFX.SurfaceFxProfile
+  surface: 0
+  hitPrefab: {fileID: 247625035325527382, guid: 9adf89a933c70457f8a92ec06fe2cd38, type: 3}
+  poolSize: 6
+  sprayAlongSwing: 0.7
+  decalMaterial: {fileID: 2100000, guid: ee0c87376b8ae4460a2a81c15804c9fc, type: 2}
+  decalPoolSize: 8
+  decalSize: {x: 0.34, y: 0.12}
+  decalDepth: 0.2
+  decalLifetime: 7
+  decalFadeTime: 1.5
+  lightColor: {r: 1, g: 0.62, b: 0.3, a: 1}
+  lightLumen: 1100
+  lightRange: 3.5
+  lightDuration: 0.14
+  shakeAmplitude: 0.065
+  shakeDuration: 0.14
+  hitStop: 0.065

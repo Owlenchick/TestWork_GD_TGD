@@ -1,0 +1,48 @@
+# ---- Unity (project lives in DuskYard/)
+DuskYard/[Ll]ibrary/
+DuskYard/[Tt]emp/
+DuskYard/[Oo]bj/
+DuskYard/[Bb]uild/
+DuskYard/[Bb]uilds/
+DuskYard/[Ll]ogs/
+DuskYard/[Uu]ser[Ss]ettings/
+DuskYard/[Mm]emoryCaptures/
+DuskYard/[Rr]ecordings/
+DuskYard/Assets/AssetStoreTools*
+
+# generated IDE / solution files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# crash / debug artefacts
+sysinfo.txt
+crashlytics-buildid.txt
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ---- player builds are delivered separately (link in README)
+Builds/
+
+# ---- OS / tools
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
